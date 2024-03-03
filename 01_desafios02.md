@@ -40,7 +40,7 @@ conversor(25.4) // retorna 121.92
 function salaRetangular(altura, largura) {
   let area = altura * largura;
   let perimetro = 2*(altura + largura);
-  console.log(`A área da sala é ${area} e o perímetro ${perimetro}`);
+  console.log(`A área da sala é ${area} m² e o perímetro ${perimetro} m.`);
 }
 
 salaRetangular(5, 10);
@@ -52,7 +52,7 @@ function salaCircular(raio) {
   let pi = 3.14;
   let area = (pi * (raio * raio)).toFixed(1);
   let perimetro = (2 * pi * raio).toFixed(1);
-  console.log(`A área da sala é ${area} e o perímetro ${perimetro}`);
+  console.log(`A área da sala é ${area} m² e o perímetro ${perimetro} m.`);
 }
 
 salaCircular(10);
@@ -66,5 +66,5 @@ function tabuada(numero) {
   }
 }
 
-tabuada(5);
+tabuada(7);
 ```
